@@ -1,6 +1,6 @@
 function testNumeros(n) {
-    if(n===1) {
-        return 'Es el 1';
+    if(n===1 && n===0) {
+        return 'Estos números son neutros';
     } else if(n===2) {
         return n + ' Es primo';
     } else {
