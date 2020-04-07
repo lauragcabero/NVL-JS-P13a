@@ -1,5 +1,5 @@
 function testNumeros(n) {
-    if(n===1 && n===0) {
+    if(n===1 || n===0) {
         return 'Estos números son neutros';
     } else if(n===2) {
         return n + ' Es primo';
@@ -15,4 +15,4 @@ function testNumeros(n) {
 
 // Invoco a la función en el ámbito global dentro de un console log para ver los resultados.
 
-console.log(testNumeros(4));
+console.log(testNumeros(0));
